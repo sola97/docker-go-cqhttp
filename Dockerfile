@@ -16,6 +16,6 @@ RUN apk update && \
     ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     apk del .build-deps
 WORKDIR /app
-CMD ["./go-cqhttp"]
+CMD ["/app/go-cqhttp"]
   
 
