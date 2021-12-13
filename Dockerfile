@@ -2,7 +2,7 @@ FROM alpine:latest
 
 LABEL maintainer="sola97 <my@sora.vip> "
 
-ENV GO_CQHTTP_DOWNLOAD_URL  https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix1/go-cqhttp_linux_amd64.tar.gz
+ENV GO_CQHTTP_DOWNLOAD_URL  https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz
 
 RUN apk update && \
     apk add --no-cache tzdata && \
